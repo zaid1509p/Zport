@@ -1,61 +1,112 @@
-<!DOCTYPE html>
-<h1 style="text-align:center;">Have Fun Shopping!</h1>
-<h3 style="background-color:powderblue;"</h3>
+<!DOCTYPE 
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 <html>
 <head>
 <style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
   float: left;
-  width: 180px;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
+li a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 </style>
 </head>
 <body>
 
-<div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="https://static.nike.com/a/images/t_default/6465ed5f-8d91-4317-8a2e-9dcac2272a7d/mohamed-salah-liverpool-2023-24-stadium-home-mens-dri-fit-soccer-jersey-qmNTQN.png" alt="Liverpool Jersey" width="600" height="600">
-  </a>
-  <div class="desc">Liverpool 2023-24 Home Jersey</div>
-</div>
-  
 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-  </a>
-
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
 
 </body>
+</html>
+ <ul>
+    <li><a class="active" href="./index.html">Home</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./shop.html">Shop</a></li>
+   
+  </ul>
+  <h1 style="text-align:center; color:black;"> Have Fun Shopping! </h1>
+  <hr>
+  <div class="row">
+    <div class="column">
+    <div class="gallery">
+      <a target="_blank">
+        <img
+          src="https://static.nike.com/a/images/t_default/6465ed5f-8d91-4317-8a2e-9dcac2272a7d/mohamed-salah-liverpool-2023-24-stadium-home-mens-dri-fit-soccer-jersey-qmNTQN.png"
+          alt="Cinque Terre" width="400" height="400">
+      </a>
+      <div class="desc">2023-24 Liverpool Home Kit
+      <p style="color:red";> $29.99</p>
+        <button onclick="alert('Succesfully added to cart')">Add to Cart</button></div>
+     
+    </div>
+    </div>
+    <div class="column">
+      <div class="gallery">
+        <a target="_blank">
+          <img
+            src="https://stefanssoccer.com/mm5/graphics/00000001/10/IB3597-10_A_2.png"
+            alt="Cinque Terre" width="400" height="400">
+        </a>
+        <div class="desc">2022 Messi World Cup Jersey
+        <p style="color:red";> $29.99</p>
+          <button onclick="alert('Succesfully added to cart')">Add to Cart</button></div>
+      </div>
+    </div>
+  </div>
+
+   <div class="row">
+    <div class="column">
+    <div class="gallery">
+      <a target="_blank">
+        <img
+          src="https://static.nike.com/a/images/t_default/3d6bec17-cc25-48ca-a38a-bf48f7af46d1/lebron-james-lakers-icon-edition-2020-mens-nba-authentic-jersey-S63qTh.png"
+          alt="Cinque Terre" width="400" height="400">
+      </a>
+      <div class="desc">2020 Lebron James Los Angeles Lakers Jersey
+      <p style="color:red";> $24.50</p>
+      <button onclick="alert('Succesfully added to cart')">Add to Cart</button></div>
+    </div>
+    </div>
+
+     <div class="column">
+      <div class="gallery">
+        <a target="_blank">
+          <img
+            src="https://static.nike.com/a/images/t_default/c2a3d206-b1b5-4b0e-be7c-dd36b881484f/tampa-bay-buccaneers-atmosphere-tom-brady-mens-fashion-football-jersey-VCWlsJ.png"
+            alt="Cinque Terre" width="400" height="400">
+        </a>
+        <div class="desc">2021 Tom Brady Bucs Jersey
+        <p style="color:red";> $21.99</p>
+          <button onclick="alert('Succesfully added to cart')">Add to Cart</button></div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+
+
 </html>
